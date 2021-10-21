@@ -72,7 +72,7 @@
 
 	SELECT ENAME, HIREDATE
 	FROM EMP
-	WHERE TO_CHAR(HIREDATE,'DD')<19
+	WHERE DATE(HIREDATE)<19
 
 14) what is the employee number of james?
 
